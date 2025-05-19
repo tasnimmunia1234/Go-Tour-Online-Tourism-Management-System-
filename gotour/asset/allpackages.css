@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 1250px;
+  }
+
+  body,
+html {
+  margin: 0;
+  padding: 0;
+  display: grid;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #fde65e;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #fde02f;
+  }
+
+  nav{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 90px;
+    background-color: #fff;
+    box-shadow: 3px 3px 10px lightslategray;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+    margin-right: 1rem;
+    padding: 1rem;
+    
+  }
+  
+  .logo {
+    flex: 1;
+    font-size: 40px;
+    padding: 20px;
+    margin-left: 50px;
+    font-family: Satisfy;
+  }
+  
+  ul.menu {
+    flex: 1;
+    display: flex;
+    flex-flow: row wrap;
+    
+  }
+  
+  .menu li {
+    flex: 1;
+    list-style-type: none;
+    font-size: 16px;
+    font-family: "Barlow Condensed";
+    text-align: center;
+    font-family: Satisfy;
+    margin-right: .7rem;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    
+  }
+  
+  .menu li a:hover {
+    color: rgb(8, 52, 84);
+  
+  }
+
+  .dropdown .btn{
+background-color: #000;
+border-radius: 1rem;
+margin-right:.7rem ;
+
+  }
+  .dropdown-menu .btn{
+    background-color: rgb(14, 15, 15);
+    color: #fff;
+    margin-top: .6rem;
+    margin-right: 1rem;
+}
+  .footer {
+    /* background-image: url("https://res.cloudinary.com/dxssqb6l8/image/upload/v1605293781/pine-tree_mq2sgp.jpg");*/
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     width: 100%;
+     height: 550px;
+     position: relative;
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: center;
+     align-items: center;
+     background-color: rgb(4, 49, 53);
+     border-radius: 1rem;
+   }
+   
+   .footer::before {
+     position: absolute;
+     content: "";
+     display: block;
+     background-color: rgba(141, 141, 161, 0.8);
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     border-radius: 1rem;
+   }
+   .container{
+    margin-left: 2rem;
+   }
+   .footer_logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 3rem;
+    margin-left: 8rem;
+    margin-bottom: 2rem;
+   }
+.logo_title{
+    
+    font-size: 40px;
+    margin-left: 8rem;
+    font-family: Satisfy;
+
+}
+
+.footer_text{
+    margin-left: 2rem;
+font-size: 1.1rem;
+}
+
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 3rem;
+    margin-left: 1rem;
+ }
+ 
+ .footer .box-container .box h3{
+    color:white;
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+    margin-left: 5rem;
+    margin-top: 1rem;
+ }
+ 
+ .footer .box-container .box a{
+    color:rgb(188, 230, 244);
+    font-size: 1.2rem;
+    padding-bottom: 1.5rem;
+    display: block;
+    margin-left: 7rem;
+ }
+ 
+ .footer .box-container .box a i{
+    color:tomato;
+    padding-right: .5rem;
+    transition: .2s linear;
+ }
+ 
+ .footer .box-container .box a:hover i{
+    padding-right: 2rem;
+    text-decoration: none
+
+ }
+ .contact_box{
+    margin-top: 2.5rem;
+    margin-left: 3.7rem;
+ }
+ .contacr_info{
+    margin-top: 2rem;
+ }
+ .footer .credit{
+    text-align: center;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    border-top: .1rem solid rgb(160, 158, 158);
+    font-size: 1.1rem;
+    color:white;
+ }
+ 
+ .footer .credit span{
+    color:rgb(249, 250, 248);
+ }
+ .active{
+    color: rgb(255, 255, 255)!important;
+ }
+ 
+ .span{
+    color: #f4d8d8;
+    background-color:  #04415e;
+    padding: .3rem;
+    padding-right: .5rem;
+    padding-left: .6rem;
+    border-radius: .7rem;
+  
+  }
+  .ptext{
+    font-size: 1.8rem;
+    margin-left: 45%;
+    color: white;
+  }
+  .heading{
+  margin-left: 25%;
+  margin-top: 7%;
+  }
+
+  .hero-image {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    height:270px;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    box-shadow: 4px 4px 10px rgb(23, 24, 24);
+  }
+  
+  html{
+    font-size: 62.5%;
+}
+
+
+.form-group{
+    margin-bottom:30px;
+}
+
+  main{
+    max-width: 1200px;
+      width: 100%;
+      margin-left: 20px;
+      margin-bottom: 15px;
+      display: flex;
+      margin: 2rem;
+      flex-wrap: wrap;
+      justify-content: space-between;
+     
+  }
+  main .card{
+    width: 300px;
+    flex: 1 1 210px;
+    height: 470px;
+    border: 1px solid rgb(4, 4, 4);
+    margin-top: 10px;
+    border-radius: 1rem;
+    display: flex;
+    margin-left: 3rem;
+    box-shadow: 3px 3px 10px lightslategray;
+    margin-left: 1.2rem;
+
+}
+
+  main .card .image img{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 1rem;
+
+}
+main .card .caption{
+  padding-left: 1em;
+  text-align: center;
+  line-height: 3em;
+  height: 48%;
+  background-color: rgb(244, 236, 226);
+  border-radius: 1rem;
+  padding: .3rem;
+}
+main .card .caption p{
+  font-size: 2rem;
+
+}
+main .card .caption .rate{
+  display: flex;
+  margin-top: 1rem;
+  margin-left: 9rem;
+  color: rgb(13, 70, 183);
+
+}
+main .card a{
+  width: 50%;
+}
+main .card .add{
+  border: 2px solid black;
+  padding: .3rem;
+  margin-top: .5rem;
+  width: 70%;
+  height: 20%;
+  border-radius: 1.2rem;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: bold;
+  position: relative;
+  background-color: rgb(70, 84, 97);
+  color: aliceblue;
+}
+
+main .card .add:hover{
+  background-color: rgb(7, 18, 40);
+}
+

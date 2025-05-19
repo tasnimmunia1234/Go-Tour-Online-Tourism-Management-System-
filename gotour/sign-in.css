@@ -1,0 +1,46 @@
+nav{
+    background-color: hsl(200, 38%, 79%);
+    box-shadow: 3px 3px 10px rgb(135, 152, 169);
+   
+}
+
+.menu .flex-container{
+    display: flex;
+   
+}
+.menu .flex-container{
+margin-left: 32rem;
+padding-left:2rem ;
+padding-right:1rem ;
+padding-top:1.2rem ;
+padding-bottom:1.6rem ;
+font-size: 30px;
+}
+.menu .flex-container a{
+    margin-left: 1.3rem;
+    color: black;
+    text-transform: capitalize;
+  font-family: "Barlow Condensed";
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.6rem;
+  font-style: italic;
+}
+.menu .flex-container a:hover{
+    text-decoration: none;
+}
+.logo-title {
+    
+    font-size: 2rem;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT' 'Trebuchet MS', sans-serif;
+    color: rgb(211, 206, 219);
+    border: solid rgb(14, 15, 15);
+    border-radius: 2.2rem;
+    padding-left: 1.4rem;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    padding-right: 1.4rem;
+    background-color: black;
+    margin-left: 6rem;
+  }
+  

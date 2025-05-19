@@ -1,0 +1,151 @@
+
+@import url("https://fonts.googleapis.com/css2?family=poppins:wght@100;200;300;400;500;600&display=swap");
+
+
+
+section{
+    padding: 1rem;
+    
+}
+
+
+
+/*======responcive======
+
+@media (max-width:1200px){
+ 
+    .shopping-cart table{
+       width: 120rem;
+    }
+ 
+    .shopping-cart .heading{
+       text-align: left;
+    }
+ 
+    .shopping-cart .checkout-btn{
+       text-align: left;
+    }
+ 
+ }
+
+ 
+ @media (max-width:991px){
+ 
+    html{
+       font-size: 55%;
+    }
+ 
+ }
+ 
+ @media (max-width:768px){
+ 
+    #menu-btn{
+       display: inline-block;
+       transition: .2s linear;
+    }
+ 
+    #menu-btn.fa-times{
+       transform: rotate(180deg);
+    }
+ 
+    .header .flex .navbar{
+       position: absolute;
+       top:99%; left:0; right:0;
+       background-color: var(--blue);
+       clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+       transition: .2s linear;
+    }
+ 
+    .header .flex .navbar.active{
+       clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+ 
+    .header .flex .navbar a{
+       margin:2rem;
+       display: block;
+       text-align: center;
+       font-size: 2.5rem;
+    }
+ 
+    .display-package-table{
+       overflow-x: scroll;
+    }
+ 
+    .display-package-table table{
+       width: 90rem;
+    }
+ 
+ }
+ 
+ @media (max-width:450px){
+ 
+    html{
+       font-size: 50%;
+    }
+ 
+    .heading{
+       font-size: 3rem;
+    }
+ 
+    .pack .box-container{
+       grid-template-columns: 1fr;
+    }
+ 
+ }*/
+.btn{
+    margin-top: .4rem;
+    background-color: black;
+}
+td i{
+   padding: .4rem;
+   
+  color: antiquewhite;
+}
+ 
+.display-package-table table{
+   
+    text-align: center;
+    width: 100%;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    
+    
+    
+    }
+    .display-package-table table th{
+       
+        background-color: rgb(178, 213, 250);
+        padding: 16px;
+        color: rgb(8, 8, 8);
+      
+       border: solid black;
+        
+    }
+    .display-package-table thead th{
+        padding: .9rem;
+    }
+    .display-package-table table tr{
+        border: solid rgb(12, 12, 41);
+        font-size: 1.1rem;
+        background-color: rgb(236, 249, 249);
+       
+    }
+    .display-package-table table tr td{
+        border:  solid rgb(12, 12, 41);
+       padding: .3rem;
+        
+    }
+    .display-package-table table tr:nth-child(even){
+    background-color:rgb(222, 221, 221);
+    }
+    
+    
+    .empty{
+        margin-bottom: 1rem;
+        text-align: center;
+        background-color: rgb(185, 183, 181);
+        color: black;
+        font-size: 1.3rem;
+        padding: 2px;
+        border-radius: 4px;
+    }

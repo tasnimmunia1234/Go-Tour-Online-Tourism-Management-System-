@@ -1,0 +1,43 @@
+
+.shopping-Notification table{
+    text-align: center;
+    width: 100%;
+ }
+ 
+ .shopping-Notification table thead th{
+    padding:1.5rem;
+    font-size: 2rem;
+    color:var(--white);
+    background-color: var(--black);
+ }
+ 
+ .shopping-Notification table tr td{
+    border-bottom: var(--border);
+    padding:1.5rem;
+    font-size: 2rem;
+    color:var(--black);
+ }
+ 
+ .shopping-Notification table input[type="number"]{
+    border: var(--border);
+    padding:1rem 2rem;
+    font-size: 2rem;
+    color:var(--black);
+    width: 10rem;
+ }
+ 
+ .shopping-Notification table input[type="submit"]{
+    padding:.5rem 1.5rem;
+    cursor: pointer;
+    font-size: 2rem;
+    background-color: var(--orange);
+    color:var(--white);
+ }
+ 
+ .shopping-Notification table input[type="submit"]:hover{
+    background-color: var(--black);
+ }
+ 
+ .shopping-Notification table .table-bottom{
+    background-color: var(--bg-color);
+ }

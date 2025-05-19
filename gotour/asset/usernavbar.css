@@ -1,0 +1,74 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body,
+html {
+  margin: 0;
+  padding: 0;
+  display: grid;
+}body {
+    background-color: #f9f9fa
+}
+
+nav{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 90px;
+    background-color: #f08282;
+    box-shadow: 3px 3px 10px lightslategray;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+  }
+  
+  .logo {
+    flex: 1;
+    font-size: 40px;
+    padding: 20px;
+    margin-left: 50px;
+    font-family: Satisfy;
+  }
+  
+  ul.menu {
+    flex: 1;
+    display: flex;
+    flex-flow: row wrap;
+    
+  }
+  
+  .menu li {
+    flex: 1;
+    list-style-type: none;
+    font-size: 16px;
+    font-family: "Barlow Condensed";
+    text-align: center;
+    font-family: Satisfy;
+    align-items: center;
+  }
+
+
+  .menu li a {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: .6rem;
+    margin-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  .menu li a:hover {
+    color: rgb(0, 4, 10);
+    text-decoration: underline;
+  }

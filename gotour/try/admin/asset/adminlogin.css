@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.section1{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('img/pic10.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 750px;
+}
+/*
+.container{
+    width: 100px;
+    padding:20px;
+    border-radius: 20px;
+    background-color: beige;
+   
+}*/
+.container1{
+    padding-top: 15px;
+}
+#form{
+    width: 40%;
+    height: 55%;
+    padding: 10px;
+    background-color: beige;
+    border-radius: 20px;
+    flex-direction: column;
+    /*margin-top: 55px;*/
+}
+h4{
+    text-align: center;
+    color: rgb(38, 41, 44);
+    padding-bottom: 2px;
+}
+p{
+    padding-right: 10px;
+    color: rgb(13, 13, 13);
+  
+}

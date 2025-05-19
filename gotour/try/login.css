@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+
+}
+.section1{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('img/pic10.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 750px;
+}
+
+form{
+    width: 38%;
+    background-color: beige;
+    padding: 35px;
+    border-radius: 20px;
+
+}
+.container-fluid{
+    padding-top: 100px;
+}
+.reg{
+    text-align: center;
+    color: rgb(101, 66, 66);
+    margin-bottom: 20px;
+}
+button{
+    margin-left: 50px;
+}

@@ -1,0 +1,15 @@
+
+.navbar-list li .signin-btn{
+    border: solid rgb(248, 248, 244);
+    padding: .5rem;
+    background-color: #112946;
+    margin-left: .4rem;
+    border-radius: 1rem;
+    color: #f9f6f6;
+    font-size: 1.3rem;
+    font-style: italic;
+    text-transform: capitalize;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  }

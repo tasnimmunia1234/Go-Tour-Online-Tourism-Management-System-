@@ -1,0 +1,104 @@
+
+.slide{
+    margin: .5rem;
+    flex-wrap: wrap;
+    height: 475px;
+    width: 321px;
+    border: solid  rgb(9, 1, 1);
+}
+.slide h6{
+    font-size: 20px;
+    margin: 0;
+    padding-top: 10px;
+    text-align: center;
+}
+.slick-slide{
+   
+   background-color: rgb(101, 153, 167);
+   border-radius: .5rem
+   
+}
+
+.slick-slide img{
+    height: 260px;
+    width: 365px;
+    border-radius: .5rem;
+}
+.caption{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: .3rem;
+    text-transform: uppercase;
+    
+}
+.price{
+    text-align: center;
+    
+    
+}
+.add{
+margin-left: 9rem;
+background-color: rgb(4, 4, 4);
+
+border-radius: .5rem;
+padding: .3rem;
+
+}
+a{
+    color: rgb(246, 243, 243);
+    
+}
+.masg{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: .5rem;
+}
+.slick-arrow{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+    font-size: 0;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(0,0,0,0,.6);
+    border-radius: 1rem;
+    z-index: 1;
+    cursor: pointer;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.slick-arrow.slick-prev{
+    left: 10px;
+}
+.slick-arrow.slick-next{
+    margin-left: 30px;
+}
+.offer_package{
+    text-align: center;
+    background-color: rgb(109, 80, 117);
+    margin-top: 2rem;
+    border-radius: 1rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.discount{
+margin-left: 10rem;
+font-size: 1rem;
+
+}
+.slide button a:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.slide button:hover{
+    background-color: rgb(8, 76, 132)
+}
+.see_detalis_btn{
+    margin-left: 8rem;
+    background-color: rgb(4, 4, 4);
+    
+    border-radius: .5rem;
+    padding: .3rem;
+}

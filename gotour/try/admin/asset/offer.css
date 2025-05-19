@@ -1,0 +1,76 @@
+
+.container-head{
+   font-family:serif, sans-serif;
+   color: rgb(7, 7, 7);
+   text-transform: inherit;
+   text-align: center;
+   margin-bottom: 10px;
+   text-shadow: 10px;
+   margin-top: 15px;
+   margin-left: 100px;
+   margin-right: 100px;
+   background-color: rgb(153, 155, 156);
+   border-radius: 1.2rem;
+}
+.container-head:hover{
+   background-color: rgb(88, 124, 142);
+
+}
+h1{
+   text-align: center;
+   margin-top: 10px;
+}
+.packages .box-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, 19rem);
+   gap:1.5rem;
+   justify-content: center;
+   
+}
+
+.packages .box-container .box{
+   text-align: center;
+   padding:1rem;
+   box-shadow: 10px;
+   border:var(--border);
+   border-radius: .5rem;
+   margin-right: 10px;
+}
+
+.packages .box-container .box img{
+   height: 12rem;
+   width: 20rem;
+   padding: .7rem;
+   border-radius: 10px;
+   margin-right: 20px;
+   
+   
+}
+.packages .box-container .content{
+   background-color: rgb(215, 187, 168);
+   border-radius: 1rem;
+   text-align: center;
+   margin-bottom: 4px;
+   margin-left: 40px;
+  
+}
+
+.packages .box-container .price{
+   font-size: 1.5rem;
+}
+.book-btn{
+   display: block;
+    width: 70%;
+    text-align: center;
+    background-color:rgb(3, 3, 13);
+    color: rgb(239, 232, 232);
+    font-size: 1.4rem;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    margin-top: .7rem;
+    margin-left: 2rem;
+    
+}
+.packages .box-container .content:hover{
+   background-color: rgb(111, 114, 116);
+}

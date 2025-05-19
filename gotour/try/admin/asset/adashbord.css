@@ -1,0 +1,7 @@
+.table{
+    background-color: rgb(224, 224, 216);
+    border-radius: 1rem;
+}
+.table tr:nth-child(even){
+    background-color:rgb(181, 180, 180);
+    }
